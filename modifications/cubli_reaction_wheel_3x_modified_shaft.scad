@@ -1,6 +1,6 @@
 module actuatorHole() {
     h = 5;
-    r = 8;
+    r = 9;
     translate([0, 0, 7]){
         cylinder(h,r,r, $fn=50);
     };
